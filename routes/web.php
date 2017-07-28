@@ -66,3 +66,18 @@ Route::get('/tugas', function(){
 	$query = App\Siswa::all();
 	return $query;
 });
+
+//
+Route::get('/about', function(){
+	return view('about');
+});
+
+//Route Master.blade.php
+Route::get('cektampilan', function(){
+	return view('layouts.master');
+});
+
+//Route index.blade.php
+Route::get('cekjodoh', function(){
+	return view('index');
+});

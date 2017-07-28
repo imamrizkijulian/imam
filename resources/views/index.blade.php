@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Halaman Index</title>
-</head>
-<body>
-		Ini Halaman Index
-</body>
-</html>
+@extends('tampilan.master')
+@section('content')
+
+		<h2>1. Tips Cari Jodoh Dengan Cepat</h2>
+		Pertama-tama.....
+
+@endsection
